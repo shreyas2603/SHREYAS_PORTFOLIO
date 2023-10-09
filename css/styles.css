@@ -882,6 +882,9 @@ input[type='checkbox'] {
     background-color: rgb(201, 196, 196);
 	color: rgb(238, 238, 238);
 }
+.used{
+	color:rgb(201, 196, 196);
+}
 
 .course .h2-heading {
 	margin-bottom: 0.75rem;
@@ -904,6 +907,7 @@ input[type='checkbox'] {
 	transition: 1s ease;
 	height: 420px;
 	margin-bottom: -50px;
+	background-image: url('images/back3.jpg');
 }
 
 .course .text-box:hover {
