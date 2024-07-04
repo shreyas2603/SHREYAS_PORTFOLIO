@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreyas Portfolio</title>
+  <link rel="icon" href="images/logo.png">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/fontawesome-all.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+  <div id="preloader"></div>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="main.html"><img src="images/logo.png" alt="alternative"></a>  
+
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link page-scroll" href="#projects">Projects</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+                <a class="back-to-top" href="#header">
+                  <i class="fa fa-chevron-up" style="font-size:24px;color:rgb(5, 4, 4);background-color: rgb(252, 252, 252);"></i>
+                </a>
+            </ul>
+        </div> 
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container1">
+      <div class="oval-image">
+        <img src="/images/photo.png" alt="" class="mobile-pic" srcset="">
+        <div class="lights"></div>
+        <div class="music-bars"></div>
+      </div>    
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text">
+                    <h1 class="h1-large" ><span class="letter-a">R B </span>SHREYAS</h1>
+                    <h1 class="h1-small">Full stack Web Developer</h1>
+                    <a class="btn-solid-lg page-scroll" href="#about">Who am I?</a>
+                    <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
+                    <br><br>
+                    <!--<h5 style="color: white; margin-right: 250px;">Here's my Resume</h5>
+                    <embed src="shreyas_resume.pdf" width="500" height="600" type="application/pdf">-->
+                      <a href="shreyas_resume.pdf" download="resume.pdf">
+                        <button class="resume">Download Resume</button>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About-->
+<div id="about" class="about" > 
+  <div class="container">
+      <h1 class="about-me-heading">ABOUT ME</h1>
+      <div class="row">
+      <div class="col-lg-8">
+          <div class="text-container first">
+              <h2 class="hey">Hey guys,</h2>
+              <p class="me">I am currently pursuing a Bachelor of Technology in Computer Science and Engineering at Vellore Institute of Technology, specializing in Artificial Intelligence and Machine Learning.
+                
+                <br><br>As a MERN Stack Developer, I excel in crafting intuitive web applications using HTML, CSS, JavaScript, ReactJs, NodeJs, and MongoDB. My professional journey includes developing an innovative invoice automation system at TITAN Company Limited, where I demonstrated proficiency in software development and database management. 
+
+                  <br><br>Through projects like designing an online bike showroom website and implementing advanced machine learning models like Image Caption Detection and Traffic Board Detection, I showcase my ability to deliver impactful solutions that blend creativity with technical expertise.
+                  
+                  </p>
+
+          </div> <!-- end of text-container -->
+      </div> <!-- end of col -->
+      <div class="col-lg-4 img-wrapper">
+        <img src="images/aboutme.jpg" class="about-me" alt="aboutme">
+      </div>
+    </div>
+
+    <br>
+    <h1 class="hey" align="center" >EDUCATION</h1>
+    <br>
+    <div class="flowchart" align="center">
+      <div class="node" id="high-school">
+        <h2 class="me">Secondary School</h2>
+        <p class="me">2006 - 2019</p>
+        <p class="me">Siddharth Village School | Hosur</p>
+      </div>
+      <div id="line1"></div>
+      <div class="arrow5"></div>
+      <div class="node" id="Senior Secondary">
+        <h2 class="me">Senior Secondary School</h2>
+        <p class="me">2019 - 2021</p>
+        <p class="me">Sishya School | Hosur</p>
+      </div>
+      <div id="line1"></div>
+      <div class="arrow6"></div>
+      <div class="node" id="undergraduate-degree">
+        <h2 class="me">Undergraduate Degree</h2>
+        <p class="me">2021 - Present</p>
+        <p class="me">Vellore Institute of Technology | Chennai</p>
+      </div>
+    </div>
+    <br>
+  </div>
+</div> 
+
+<!-- Services-->
+  <div id="services" class="basic-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h2-heading">SKILLS</h1>
+                <p class="p-heading">Skills That I Learned!!!</p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="text-box">
+                  <br>
+                  <i class="fas fa-solid fa-code fa-bounce fa-xl" style="color: rgb(201, 196, 196);"></i>
+                  <br><br>
+                    <h4>WEB DEVELOPER</h4>
+                    <p class="p-large">I am a skilled web developer proficient in HTML, CSS, JavaScript, MongoDB, ReactJs, ExpressJs and NodeJs. I can create dynamic and responsive websites that deliver an exceptional user experience. I am dedicated to delivering high-quality solutions that enhance online presence and drive business growth.</p>
+                </div> <!-- end of text-box -->
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+              <div class="text-box">
+                <br>
+                <i class="fas fa-brands fa-python fa-bounce fa-xl" style="color: #c9c4c4;"></i>
+                <br><br>  
+                  <h4>MACHINE LEARNING</h4>
+                  <p class="p-large">Proficient in machine learning with experience in utilizing various techniques and tools, such as Python libraries for machine learning. Skilled in analyzing and interpreting data to develop models that improve accuracy and efficiency.</p>
+              </div> <!-- end of text-box -->
+          </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <div class="text-box">
+                  <br>
+                    <i class="fas fa-brands fa-python fa-bounce fa-xl" style="color: rgb(201, 196, 196)"></i>
+                    <br><br>   
+                    <h4>COMPUTER VISION</h4>                    
+                    <p class="p-large">I specialize in developing innovative solutions that leverage advanced algorithms and neural networks. Applying these technologies to solve real-world challenges, demonstrating a deep understanding of  theoretical concepts and practical implementation in the fields of AI and machine learning.</p>
+                </div> <!-- end of text-box -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+  </div> <!-- end of basic-2 -->
+<!-- end of services -->
+
+<!-- Courses -->
+<div id="courses" class="course">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <h1 class="h2-heading">COURSES</h1>
+              <p class="p-heading">Courses That I Completed!!!</p>
+          </div> <!-- end of col -->
+      </div> <!-- end of row -->
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="text-box" style="background-image: url('images/back3.jpg');">
+                <br>
+                <i class="fas fa-solid fa-code fa-bounce fa-xl" style="color: rgb(201, 196, 196)"></i>
+                <br><br>
+                <h4 style="color: rgb(0, 173, 181);">Web Development</h4>
+                <h5 class="used">Web development with Mongodb and Nodejs live projects from Immensphere in association with verzeo</h5>
+                <br>
+                <button style="background-color: rgb(0, 173, 181); border-radius: 10px;">
+                  <a href="https://drive.google.com/file/d/15agm5vihZRVavr_IMwMvNNpD8kAs_3P3/view?usp=sharing" style="color: black;">Certificate</a>
+                </button>
+                <button style="background-color: rgb(0, 173, 181); border-radius: 10px;">
+                  <a href="https://drive.google.com/file/d/15e-tr5qX9jimn4Tt5QSo4BhnEqi5hPvf/view?usp=sharing" style="color: black;">Certificate</a>
+                </button>
+              </div> <!-- end of text-box -->
+          </div> <!-- end of col -->
+          <div class="col-lg-4">
+            <div class="text-box" style="background-image: url('images/back3.jpg');">
+              <br>
+              <i class="fas fa-solid fa-code fa-bounce fa-xl" style="color: rgb(201, 196, 196)"></i>
+              <br><br>
+              <h4 style="color: rgb(0, 173, 181);">MERN Stack Development</h4>
+              <h5 class="used">comprehensive MERN Stack course, equipping me with expertise in MongoDB, Express.js, React.js, and Node.js with ETHNUS.</h5>
+              <br>
+              <button style="background-color: rgb(0, 173, 181);border-radius: 10px;">
+                <a href="https://drive.google.com/file/d/1pTEHsXrRKghaTr9JlEpQ47xlnXAxEl5G/view?usp=sharing" style="color: black;">Certificate</a>
+              </button> 
+            </div> <!-- end of text-box -->
+        </div> <!-- end of col -->
+          <div class="col-lg-4">
+              <div class="text-box" style="background-image: url('images/back3.jpg');">
+                <br>
+                <i class="fas fa-solid fa-terminal fa-bounce fa-2xl" style="color: rgb(201, 196, 196)"></i>
+                  <br><br>
+                  <h4 style="color: rgb(0, 173, 181)">Programming</h4>
+                  <h5 class="used">C/C++/Java training from Spoken Tutorial Project IIT Bombay</h5>
+                  <br>
+                  <button style="background-color: rgb(0, 173, 181); border-radius: 10px;">
+                    <a href="https://drive.google.com/file/d/1Ck1IwsNUg5KEXW-XuKhSjOSWnL0rFm53/view?usp=sharing" style="color: black;">Certificate</a>
+                  </button>
+                  <button style="background-color: rgb(0, 173, 181); border-radius: 10px;">
+                    <a href="https://drive.google.com/file/d/1lmsK5MTUMVsU4h4tUo7GIXWblBeyZSel/view?usp=sharing" style="color: black;">Certificate</a>
+                  </button>
+                  <button style="background-color: rgb(0, 173, 181); border-radius: 10px;">
+                    <a href="https://drive.google.com/file/d/1YlMmKowHYlhbPM0pdxGaaSpB21GBvX_b/view?usp=sharing" style="color: black;">Certificate</a>
+                  </button>
+              </div> <!-- end of text-box -->
+          </div> <!-- end of col -->
+      </div> <!-- end of row -->
+  </div> <!-- end of container -->
+</div> <!-- end of basic-2 -->
+<div id="courses" class="course" >
+  <div class="container" style="margin-top: -150px;">
+      <div class="row">
+          <div class="col-lg-4">
+              <div class="text-box" style="background-image: url('images/back3.jpg');">
+                <br>
+                <i class="fas fa-brands fa-python fa-bounce fa-2xl" style="color: rgb(201, 196, 196);"></i>
+                <br><br>
+                <h4 style="color: rgb(0, 173, 181)">Artificial Intelligence and Machine Learning</h4>
+              <h5 class="used">Intensive AI and Machine Learning course, incorporating advanced deep learning concepts with Google Developers.</h5>
+              <br>
+              <button style="background-color: rgb(0, 173, 181);border-radius: 10px;">
+                <a href="https://drive.google.com/file/d/1kBsaEZVxGWYvLwvCEO0l7-wxTLwJXE0_/view?usp=sharing" style="color: black;">Certificate</a>
+              </button> 
+              </div> <!-- end of text-box -->
+          </div> <!-- end of col -->
+          <div class="col-lg-4">
+            <div class="text-box" style="background-image: url('images/back3.jpg');">
+              <br>
+              <i class="fas fa-brands fa-python fa-bounce fa-2xl" style="color: rgb(201, 196, 196);"></i>
+              <br><br>
+              <h4 style="color: rgb(0, 173, 181);">Machine Learning</h4>
+              <h5 class="used">Supervised, unsupervised and advanced learning algorithms of machine learning from Stanford University through Coursera</h5>
+              <br>
+              <button style="background-color: rgb(0, 173, 181);border-radius: 10px;">
+                <a href="https://drive.google.com/file/d/1yKgb2NK3Iclv4lJ7Ik4LGnSLXoHcSCXm/view?usp=sharing" style="color: black;">Certificate</a>
+              </button> 
+              <button style="background-color: rgb(0, 173, 181);border-radius: 10px;">
+                <a href="https://drive.google.com/file/d/1HbMvi_TOIWUnzwSkOHJ-ASIPlc3pJTFf/view?usp=sharing" style="color: black;">Certificate</a>
+              </button>
+            </div> <!-- end of text-box -->
+        </div> <!-- end of col -->
+        <div class="col-lg-4">
+          <div class="text-box" style="background-image: url('images/back3.jpg');">
+            <br>
+            <i class="fas fa-brands fa-python fa-bounce fa-2xl" style="color: rgb(201, 196, 196);"></i>
+            <br><br>
+            <h4 style="color: rgb(0, 173, 181)">Cloud Computing</h4>
+          <h5 class="used">completed a Google Cloud Computing course, gaining proficiency in deploying, managing, and scaling applications on Google Cloud Platform (GCP)</h5>
+          <br>
+          <button style="background-color: rgb(0, 173, 181);border-radius: 10px;">
+            <a href="https://drive.google.com/file/d/1n-EUC-Cc7iZzMvPWgAhpgyWuxeWZGTql/view?usp=sharing" style="color: black;">Certificate</a>
+          </button> 
+          </div> <!-- end of text-box -->
+      </div> <!-- end of col -->
+      </div> <!-- end of row -->
+  </div> <!-- end of container -->
+</div> <!-- end of basic-2 -->
+
+<!-- end of services -->
+
+<!-- Projects -->
+<div id="projects" class="basic-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <h2 class="h2-heading">PROJECTS</h2>
+              <p class="p-heading">The following are my projects that I have done over these years!</p>
+          </div> <!-- end of col -->
+          <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'Web Development')">Bike Showroom</button>
+            <button class="tablinks" onclick="openCity(event, 'ASP.NET')">Invoice Automation</button>                 
+            <button class="tablinks" onclick="openCity(event, 'ImageCaption')">Image caption</button>
+            <button class="tablinks" onclick="openCity(event, 'Artistic')">Artistic style Transfer</button>
+            <button class="tablinks" onclick="openCity(event, 'Movie Recommendation')">Movie Recommendation</button>
+            <button class="tablinks" onclick="openCity(event, 'Traffic')">Traffic SignBoard Detection</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="ASP.NET" class="tabcontent">
+            <h5 class="p1">Designed and developed an Invoice Automation System using C# 
+              and ASP.NET Framework, designed to tackle the inefficiencies of manual invoice processing. This cutting-edge solution offers 
+              automated data extraction and real-time tracking capabilities. 
+              By reducing errors and streamlining processes, the system delivers tangible benefits, including a 40% decrease in 
+              processing time and substantial cost savings. User feedback underscores its user-friendly interface and 
+              efficiency. Looking ahead, I'm excited to explore AI-powered enhancements for even greater automation and efficiency gains.</h5>
+            <img src="images/ExtractedData_page.png" alt="Extract">
+            <br><br>
+            <img src="images/ViewInvoiceButton.png" alt="Extract">
+            <br><br>
+            <img src="images/ViewInvoiceData_page.png" alt="Extract">
+            <br><br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/Invoice_Automation_PDF_Extraction">PROJECT</a>
+            </button>
+          </div>
+
+
+          <div id="Artistic" class="tabcontent">
+            <h5 class="p1">Crafted an innovative project on artistic styletransfer, utilizing advanced deep learning techniquessuch as YOLO for object detection,
+               VGG for contentrepresentation, and Inception for style extraction.
+              Created a sophisticated system that seamlessly blends artistic styles with real-world images, showcasing expertise in deep learning integration.</h5>
+            <img src="images/art1.png" alt="Extract">
+            <br><br>
+            <img src="images/art2.png" alt="Extract">
+            <br><br>
+            <img src="images/art3.png" alt="Extract">
+            <br><br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/Artistic_style_transfer">PROJECT</a>
+            </button>
+          </div>
+
+
+          <div id="Traffic" class="tabcontent">
+            <h5 class="p1">Built a CNN model for a Traffic Board Detectionproject, demonstrating proficiency in computervision.
+              Cultivated to accurately detect and classify traffic signs, leveraging convolutional neural networks for robust performance.
+              Implemented advanced image processing techniques to enhance detection accuracy, showcasing practical application of machine learning in traffic management systems.</h5>
+            <img src="images/traffic1.png" alt="Extract" width="1000">
+            <br><br>
+            <img src="images/traffic2.png" alt="Extract" width="500">
+            <br><br>
+            <img src="images/traffic3.png" alt="Extract" width="500">
+            <br><br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/Traffic_SignBoard_Detection">PROJECT</a>
+            </button>
+          </div>
+
+          <div id="ImageCaption" class="tabcontent">
+            <h5 class="p1">Implemented an Image Caption Detector using LSTMand CNN models.
+              Engineered to generate descriptive captions for images, integrating advanced neural network architectures.
+              Demonstrated expertise in both image processing and natural language processing, delivering innovative solutions that combine visual and textual data seamlessly.</h5>
+            <img src="images/dog.png" alt="output">
+            <br><br>
+            <img src="images/man.png" alt="output">
+            <br>
+            <br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/Image_Caption_Detector">PROJECT</a>
+            </button>
+          </div>
+
+          <div id="Movie Recommendation" class="tabcontent">
+            <h5 class="p1">I conceptualized and brought to life a Movie Recommendation System by harnessing the power of machine learning algorithms and web development technologies. Leveraging Python for comprehensive data analysis and modeling, I fine-tuned a recommendation model that delivers personalized movie suggestions. Taking it a step further, I seamlessly integrated this model with a user-friendly web application using HTML, CSS, and JavaScript. This fusion of data-driven insights and web development wizardry ensures users receive tailored movie recommendations while enjoying a visually appealing and intuitive interface. This project showcases my ability to bridge the realms of data science and web development, delivering a dynamic, user-focused solution at the intersection of technology and entertainment.</h5>
+            <img src="images/movie.png" alt="sol">
+            <br>
+            <br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/MOVIE_Recommendation">PROJECT</a>
+            </button>
+          </div>
+
+          <div id="Web Development" class="tabcontent" style="display: block;">
+            <h5 class="p1">Designed a fully functional online bike showroomwebsite, demonstrating advanced web developmentskills leveraging HTML, CSS, JavaScript, React,Node.js and MongoDB to build an intuitive andvisually appealing platform.
+              The website features a well-designed home page, a customization page for each bike, and a dummy Razorpay payment page significantly enhancing the user experience.
+              This project showcases my ability to create seamless, engaging web applications and manage all stages from conception to deployment.</h5>
+            <img src="images/HOME.png" alt="output">
+            <br><br>
+            <img src="images/cust.png" alt="output">
+            <br><br>
+            <img src="images/pay.png" alt="output">
+            <br>
+            <br>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://github.com/shreyas2603/OnlineBikeShowroom_Frontend">PROJECT</a>
+            </button>
+            <button style="background-color: rgb(0, 173, 181);">
+              <a href="https://bike-showroom-seven.vercel.app/">PROJECT</a>
+            </button>
+          </div>
+      </div> <!-- end of row -->
+  </div> <!-- end of container -->
+</div> <!-- end of basic-3 -->
+<!-- end of projects -->
+
+<!-- Contact -->
+<!-- Contact -->
+<div id="contact" class="form-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Contact Me!</h2>
+        <p class="p-heading">Contact me using <a class="blue no-line" href="mailto:shreyasrb2003@gmail.com">shreyasrb2003@gmail.com</a></p>
+      </div> <!-- end of col -->
+    </div> <!-- end of row -->
+
+    <div class="row">
+      <div class="col-lg-6 img-wrapper">
+        <img src="images/contact.jpeg" class="contact-me" alt="aboutme" width="300">
+      </div> <!-- end of col -->
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-about">
+          <h3>Let's bring your ideas to life!</h3>
+          <h2 style="color: rgb(0, 173, 181)">Let's create something amazing together.</h2>
+          
+          <div class="social-container">
+            <a href="https://www.linkedin.com/in/shreyas-r-b-a78780248/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="http://discordapp.com/users/Shreyas#0713" target="_blank" class="social-link">
+              <i class="fab fa-discord fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/im_shreyas_26/" target="_blank" class="social-link">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://github.com/shreyas2603" target="_blank" class="social-link">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div> <!-- end of social-container -->
+        </div>
+      </div> <!-- end of col -->
+    </div> <!-- end of row -->
+  </div> <!-- end of container -->
+</div> <!-- end of form-1 -->
+
+<!-- end of form-1 -->  
+      <!-- end of contact -->
+
+
+
+
+      <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Shreyas R B</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+
+
+  <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+  <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+  <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+  <script src="https://kit.fontawesome.com/928fde7a55.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script> 
+</body>
+</html>
